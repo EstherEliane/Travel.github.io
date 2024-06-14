@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background:linear-gradient(skyblue,white);
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+header{
+  padding: 50px 0px;
+  text-align: center;
+}
+
+img{
+  width: 100%;
+}
+
+#placement{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.flexitem img{
+  height: 100%;
+  width: 200px;
+}
+.flexitem:hover{
+  transform: scale(1.25);
+  box-shadow: 0px 0px 10px black;
+margin:20px;
+}
